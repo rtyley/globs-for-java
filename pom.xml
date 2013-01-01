@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.madgag</groupId>
     <artifactId>globs-for-java</artifactId>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Globs for Java</name>
     <description>A Java Glob implementation taken from OpenJDK 7 sun.nio.fs.Globs</description>
