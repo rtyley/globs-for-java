@@ -207,11 +207,11 @@ public class Globs {
         return regex.append('$').toString();
     }
 
-    static String toUnixRegexPattern(String globPattern) {
+    public static String toUnixRegexPattern(String globPattern) {
         return toRegexPattern(globPattern, false);
     }
 
-    static String toWindowsRegexPattern(String globPattern) {
+    public static String toWindowsRegexPattern(String globPattern) {
         return toRegexPattern(globPattern, true);
     }
 }
